@@ -6,6 +6,7 @@
   NとMを入力させて N÷10×M　を出力させる。  
   
   
+    
 ## No2.cs  
   入力された文字列を以下の表にしたがって置換した文字列を出力する。  
   >    A → 4  
@@ -17,10 +18,11 @@
       Z → 2  
   
   
+    
 ## No3.cs  
   入力された英単語を複数形に変換する。  
     
-  ### listを使ってN個の英単語を入力させる。  
+  ### 1.listを使ってN個の英単語を入力させる。  
   以下を先頭部分につけることでリストの利用が可能。  
   >using System.Collections.Generic;  
      
@@ -30,6 +32,6 @@
   以下のコードで文字列strをlistに追加できる。  
   >list.Add(str);  
   
-  ### String.Substringで文字列の指定部分を抜き出す。
+  ### 2.String.Substringで文字列の指定部分を抜き出す。
    以下で文字列str1の0からa文字目までを抜き出す。　　
    >Console.Write(str1.Substring(0, a));   

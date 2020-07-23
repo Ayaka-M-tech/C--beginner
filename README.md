@@ -22,7 +22,8 @@
     
   ### 1.listを使ってN個の英単語を入力させる。  
       以下を先頭部分につけることでリストの利用が可能。  
-     >　using System.Collections.Generic;  
+     >　
+     using System.Collections.Generic;  
      
      以下のコードで空のリストを作成。  
      >List<string> list =new List<string>();  

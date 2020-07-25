@@ -40,17 +40,9 @@
     
 ## No4.cs
   スペースで区切られた行列を二次元配列に入力する。
-　>var n = int.Parse(Console.ReadLine());
- int[,] values = new int[n,n];        </br>　　
-     for (int i = 0; i < n; i++){
-          string line = Console.ReadLine();
-          string[] str = line.Split(' ');
-          for(int j=0;j<n;j++){
-            values[i,j] = int.Parse(str[j]);
-          }
-  　　　}
-     
- あ
+  1.以下で文字列lineとして入力させ、スペースで区切られた文字を配列strに保存。  
+  >string line = Console.ReadLine();
+   string[] str = line.Split(' ');  
   　
  
   

@@ -41,7 +41,7 @@
 ## No4.cs
   スペースで区切られた行列を二次元配列に入力する。
   1.以下で文字列lineとして入力させ、スペースで区切られた文字を配列strに保存。  
-  >string line = Console.ReadLine();
+  >string line = Console.ReadLine();　</br>
    string[] str = line.Split(' ');  
   　
  

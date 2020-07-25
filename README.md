@@ -40,7 +40,9 @@
     
 ## No4.cs
   スペースで区切られた行列を二次元配列に入力する。
-  　　　
+　　>  
+    var n = int.Parse(Console.ReadLine());
+        int[,] values = new int[n,n];        </br>　　
      for (int i = 0; i < n; i++){
           string line = Console.ReadLine();
           string[] str = line.Split(' ');
@@ -49,4 +51,5 @@
           }
   　　　}
   　
+ 
   

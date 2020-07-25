@@ -49,6 +49,8 @@
             values[i,j] = int.Parse(str[j]);
           }
   　　　}
+     
+ あ
   　
  
   
